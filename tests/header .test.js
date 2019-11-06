@@ -31,7 +31,7 @@ test('Starting the google oauth Flow', async()=>{
     const url = await page.url()
     expect(url).toMatch('/accounts\.google\.com/')
 })
-//
+
 test('Shows logout button after signing in', async()=>{
     await page.login()
 
